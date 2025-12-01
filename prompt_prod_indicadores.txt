@@ -1,0 +1,106 @@
+INSTRUCCIONES ESTRICTAS (NO ENTREGUES CÓDIGO NI EXPLICACIONES)
+
+Tarea: A partir de un único archivo tabular (TSV/CSV) que contiene filas de cuatro tipos —RESERVAS/INDICADORES, CONTINGENTES (contingencia económica), PROSPECTIVOS e INDICADORES— genera UNA SOLA TABLA ANCHA con el siguiente encabezado exacto y sin texto adicional:
+
+FECHA.AÑO;LOTE;FLUIDO;PDP;PDNP;PD;PND;1P;Probables;2P;Posibles;3P;1C;2C;3C;1U;2U;3U;IMR;IRR;ICR;IDR;IAR;IAR_RC;FR_actual;FR_final
+
+Condiciones generales:
+
+No incluyas PRONÓSTICO. Ignora cualquier fila que corresponda a pronóstico.
+
+No entregues código, ni explicaciones, ni comentarios; SOLO la tabla final en formato CSV con separador punto y coma (;).
+
+Una fila por combinación (FECHA.AÑO, LOTE, FLUIDO).
+
+Si una métrica no tiene valor, deja la celda vacía. No inventes ni interpoles valores.
+
+Elimina filas que sean únicamente de unidades (MSTB, MMSCF, etc.).
+
+Reglas de FECHA.AÑO:
+
+Extrae la fecha efectiva desde FECHA_EFECTIVA_TXT (ej.: “31 de diciembre de 2015”). Convierte a formato dd/mm/yyyy.
+
+Si no se puede extraer una fecha válida, deja FECHA.AÑO vacío.
+
+Ruteo por tipo (usa la columna ESCENARIO):
+
+ESCENARIO=RESERVAS → aplica Reglas RESERVAS/INDICADORES (métricas PDP..3P).
+
+ESCENARIO=CONTINGENTES → aplica Reglas CONTINGENTES (métricas 1C,2C,3C).
+
+ESCENARIO=PROSPECTIVOS → aplica Reglas PROSPECTIVOS (métricas 1U,2U,3U).
+
+ESCENARIO=INDICADORES → aplica Reglas INDICADORES (métricas IMR, IRR, ICR, IDR, IAR, IAR_RC, FR_actual, FR_final).
+
+Cualquier otro valor (incluido PRONOSTICO) → ignorar.
+
+Reglas de FLUIDOS y NUMERIFICACIÓN:
+
+Identifica columnas de fluido por nombre: PETROLEO, GAS, LGN (ignora sufijos de unidad, p. ej. _MSTB, _MMSCF).
+
+Normaliza números: elimina separador de miles y usa punto decimal. Valores vacíos o guiones (“-”, “–”, “—”) → celda vacía.
+
+Reglas RESERVAS/INDICADORES (llenar solo reservas: PDP..3P):
+
+A partir de CATEGORIA normaliza/ubica: • “Probadas Desarrolladas en Producción” → PDP • “Probadas Desarrolladas en No Producción” → PDNP • “Probadas No Desarrolladas” → PND • “Probadas (P1)” → 1P • “Probables (P2)” → Probables • “Posibles (P3)” → Posibles
+
+Cálculos derivados SOLO si ambos sumandos existen: • PD = PDP + PDNP • 2P = 1P + Probables • 3P = 2P + Posibles
+
+En filas RESERVAS, deja vacías 1C,2C,3C y 1U,2U,3U.
+
+Reglas CONTINGENTES (contingencia económica):
+
+Mapea CATEGORIA → {1C,2C,3C}: • Estimación baja → 1C • Mejor estimación → 2C • Estimación alta → 3C
+
+Llena únicamente 1C,2C,3C para el FLUIDO correspondiente. Deja vacías las demás métricas.
+
+Reglas PROSPECTIVOS:
+
+Mapea CATEGORIA → {1U,2U,3U}: • Estimación baja → 1U • Mejor estimación → 2U • Estimación alta → 3U
+
+Llena únicamente 1U,2U,3U para el FLUIDO correspondiente. Deja vacías las demás métricas.
+
+Reglas INDICADORES (insertar como columnas al final, una sola vez por FECHA.AÑO+LOTE):
+
+Etiquetas válidas de indicador (normalizadas, mayúsculas, sin “:”): IMR, IRR, ICR, IDR, IAR, IAR RC, FR ACTUAL, FR FINAL.
+
+Para cada etiqueta encontrada en la hoja de indicadores, toma el valor en la MISMA FILA: prioridad a la celda inmediata a la DERECHA; si está vacía, toma la primera celda NO vacía hacia la IZQUIERDA.
+
+Normaliza números: elimina “%” (no escalar), separador de miles y usa punto decimal.
+
+Mapeo a columnas de salida: • IMR → IMR • IRR → IRR • ICR → ICR • IDR → IDR • IAR → IAR • IAR RC / IAR_RC → IAR_RC • FR ACTUAL → FR_actual • FR FINAL → FR_final
+
+Replicar estos valores en TODAS las filas de la salida que compartan la misma clave (FECHA.AÑO, LOTE), sin distinguir FLUIDO. Si no existen indicadores para una clave, deja vacías estas columnas.
+
+Fusión de resultados (salida final):
+
+La clave de la fila es (FECHA.AÑO, LOTE, FLUIDO).
+
+Unifica RESERVAS, CONTINGENTES, PROSPECTIVOS e INDICADORES de esa misma clave en UNA sola fila, poblando sus columnas respectivas.
+
+Si hay múltiples valores para la misma métrica en la misma clave, usa el valor numérico mayor.
+
+No uses notación científica en ningún número. Convierte cualquier X.Ye±Z a forma decimal expandida, conservando todos los decimales presentes.
+
+Respeta exactamente la cantidad de decimales con la que llega cada valor (no redondees ni rellenes). Si un campo está vacío en la fuente, deja la celda vacía.
+
+Salida requerida:
+
+Imprime EXCLUSIVAMENTE el CSV final con separador punto y coma y el encabezado EXACTO: FECHA.AÑO;LOTE;FLUIDO;PDP;PDNP;PD;PND;1P;Probables;2P;Posibles;3P;1C;2C;3C;1U;2U;3U;IMR;IRR;ICR;IDR;IAR;IAR_RC;FR_actual;FR_final
+
+Ejemplo que solo indica el formato de salida:
+
+csv
+"""
+FECHA.AÑO; LOTE; FLUIDO; PDP; PDNP; PD; PND; 1P; Probables; 2P; Posibles; 3P; 1C; 2C; 3C; 1U; 2U; 3U; IMR; IRR; ICR; IDR; IAR; IAR_2; FR actual; FR Final
+31/12/2015; LOTE XX; GAS;    ;   ; 0;    ;   ;   ;   ;   ;   ;   ;   0;  0;       3088; 0; 0; 0.487436771; 10.03021422; 95.05496603; 91.39477361; 8.199601256; 10.58538603; 0.195077675; 0.203741399
+"""
+Nota: No incluyas notas, citas, bloques de código, ni texto adicional antes o después de la tabla.
+
+
+
+
+
+
+
+

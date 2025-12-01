@@ -1,0 +1,80 @@
+[{"HOJA":"C#18","TIPO":"PRONOSTICO","FECHA_EFECTIVA_TXT":"efectivo: diciembre 31, 2013",
+"CATEGORIA":"Probadas Desarrolladas en Producción","YACIMIENTO":null,"2014":null,"2015":null,"2016":null,
+"2017":null,"2018":null},
+
+{"HOJA":"C#18","TIPO":"PRONOSTICO","FECHA_EFECTIVA_TXT":"efectivo: diciembre 31, 2013",
+"CATEGORIA":"Probadas Desarrolladas en Producción","YACIMIENTO":"Pagoreni","2014":36335.4239095052,
+"2015":34390.6515299479,"2016":34336.3269856771,"2017":32950.4181315104,"2018":30754.7084147135},
+
+{"HOJA":"C#18","TIPO":"PRONOSTICO","FECHA_EFECTIVA_TXT":"efectivo: diciembre 31, 2013",
+"CATEGORIA":"Probadas Desarrolladas en Producción","YACIMIENTO":"Mipaya","2014":15215.9303385417,
+"2015":16528.2112223307,"2016":15587.4803873698,"2017":14465.5957845052,"2018":13255.6156005859},
+
+{"HOJA":"C#18","TIPO":"PRONOSTICO","FECHA_EFECTIVA_TXT":"efectivo: diciembre 31, 2013",
+"CATEGORIA":"Probadas Desarrolladas en Producción","YACIMIENTO":"Pagoreni West","2014":0.0,"2015":0.0,
+"2016":0.0,"2017":0.0,"2018":0.0},{"HOJA":"C#18","TIPO":"PRONOSTICO","FECHA_EFECTIVA_TXT":"efectivo: diciembre 31, 2013",
+"CATEGORIA":"Total Probadas Desarrolladas","YACIMIENTO":null,"2014":51551.3542480469,"2015":50918.8627522786,
+"2016":49923.8073730469,"2017":47416.0139160156,"2018":44010.3240152995},
+
+{"HOJA":"C#18","TIPO":"PRONOSTICO","FECHA_EFECTIVA_TXT":"efectivo: diciembre 31, 2013","CATEGORIA":"Probadas No Desarrolladas",
+"YACIMIENTO":null,"2014":null,"2015":null,"2016":null,"2017":null,"2018":null},
+
+{"HOJA":"C#18","TIPO":"PRONOSTICO","FECHA_EFECTIVA_TXT":"efectivo: diciembre 31, 2013",
+"CATEGORIA":"Probadas No Desarrolladas","YACIMIENTO":"Pagoreni","2014":0.0,"2015":0.0,"2016":0.0,
+"2017":0.0,"2018":0.0},{"HOJA":"C#18","TIPO":"PRONOSTICO",
+"FECHA_EFECTIVA_TXT":"efectivo: diciembre 31, 2013","CATEGORIA":"Probadas No Desarrolladas",
+"YACIMIENTO":"Mipaya","2014":0.0,"2015":0.0,"2016":0.0,"2017":0.0,"2018":0.0},
+
+
+{"HOJA":"C#18","TIPO":"PRONOSTICO","FECHA_EFECTIVA_TXT":"efectivo: diciembre 31, 2013",
+"CATEGORIA":"Probadas No Desarrolladas","YACIMIENTO":"Pagoreni West","2014":0.0,"2015":0.0,"2016":0.0,
+"2017":0.0,"2018":1153.1969807943},{"HOJA":"C#18","TIPO":"PRONOSTICO",
+"FECHA_EFECTIVA_TXT":"efectivo: diciembre 31, 2013","CATEGORIA":"Total Probadas","YACIMIENTO":null,
+"2014":51551.3542480469,"2015":50918.8627522786,"2016":49923.8073730469,"2017":47416.0139160156,
+"2018":45163.5209960938},{"HOJA":"C#18","TIPO":"PRONOSTICO","FECHA_EFECTIVA_TXT":"efectivo: diciembre 31, 2013",
+"CATEGORIA":"Probables","YACIMIENTO":null,"2014":null,"2015":null,"2016":null,"2017":null,"2018":null},
+
+
+{"HOJA":"C#18","TIPO":"PRONOSTICO","FECHA_EFECTIVA_TXT":"efectivo: diciembre 31, 2013",
+"CATEGORIA":"Probables","YACIMIENTO":"Pagoreni","2014":174.2770182292,"2015":216.6180826823,"2016":333.6774088542,
+"2017":481.8253580729,"2018":567.5478515625},{"HOJA":"C#18","TIPO":"PRONOSTICO",
+"FECHA_EFECTIVA_TXT":"efectivo: diciembre 31, 2013","CATEGORIA":"Probables","YACIMIENTO":"Mipaya",
+"2014":1.2099609375,"2015":1.1498616536,"2016":8.9541829427,"2017":118.8568115234,"2018":204.0491943359},
+
+
+{"HOJA":"C#18","TIPO":"PRONOSTICO","FECHA_EFECTIVA_TXT":"efectivo: diciembre 31, 2013","CATEGORIA":"Probables",
+"YACIMIENTO":"Pagoreni West","2014":0.0,"2015":0.0,"2016":0.0,"2017":0.0,"2018":19.085840861},
+
+
+{"HOJA":"C#18","TIPO":"PRONOSTICO","FECHA_EFECTIVA_TXT":"efectivo: diciembre 31, 2013",
+"CATEGORIA":"Posibles","YACIMIENTO":null,"2014":null,"2015":null,"2016":null,"2017":null,"2018":null},
+
+
+{"HOJA":"C#18","TIPO":"PRONOSTICO","FECHA_EFECTIVA_TXT":"efectivo: diciembre 31, 2013",
+"CATEGORIA":"Posibles","YACIMIENTO":"Pagoreni","2014":46.4283040365,"2015":68.2701009115,
+"2016":128.1758626302,"2017":157.9408365885,"2018":170.8496907552},
+
+{"HOJA":"C#18",
+"TIPO":"PRONOSTICO","FECHA_EFECTIVA_TXT":"efectivo: diciembre 31, 2013","CATEGORIA":"Posibles",
+"YACIMIENTO":"Mipaya","2014":0.2485351563,"2015":0.3211669922,"2016":0.5842285156,"2017":0.8109130859,"2018":0.2998453776},
+
+{"HOJA":"C#18","TIPO":"PRONOSTICO","FECHA_EFECTIVA_TXT":"efectivo: diciembre 31, 2013",
+"CATEGORIA":"Posibles","YACIMIENTO":"Pagoreni West","2014":0.0,"2015":0.0,"2016":0.0,"2017":0.0,
+"2018":0.0185750326},{"HOJA":"C#18","TIPO":"PRONOSTICO","FECHA_EFECTIVA_TXT":"efectivo: diciembre 31, 2013",
+"CATEGORIA":"Posibles","YACIMIENTO":"nan","2014":null,"2015":null,"2016":null,"2017":null,"2018":null},
+
+{"HOJA":"C#18","TIPO":"PRONOSTICO","FECHA_EFECTIVA_TXT":"efectivo: diciembre 31, 2013","CATEGORIA":"TOTAL","YACIMIENTO":null,
+"2014":51773.5180664063,"2015":51205.2219645182,"2016":50377.2906901042,"2017":47937.7342122396,
+"2018":45678.4650828044},{"HOJA":"C#18","TIPO":"PRONOSTICO",
+"FECHA_EFECTIVA_TXT":"efectivo: diciembre 31, 2013","CATEGORIA":"TOTAL","YACIMIENTO":"nan",
+"2014":null,"2015":null,"2016":null,"2017":null,"2018":null},
+
+{"HOJA":"C#18","TIPO":"PRONOSTICO","FECHA_EFECTIVA_TXT":"efectivo: diciembre 31, 2013",
+"CATEGORIA":"TOTAL","YACIMIENTO":"nan","2014":null,"2015":null,"2016":null,"2017":null,"2018":null},
+
+{"HOJA":"C#18","TIPO":"PRONOSTICO","FECHA_EFECTIVA_TXT":"efectivo: diciembre 31, 2013",
+"CATEGORIA":"TOTAL","YACIMIENTO":"NOTA:","2014":null,"2015":null,"2016":null,"2017":null,"2018":null},
+
+{"HOJA":"C#18","TIPO":"PRONOSTICO","FECHA_EFECTIVA_TXT":"efectivo: diciembre 31, 2013",
+"CATEGORIA":"TOTAL","YACIMIENTO":"Se consideran dentro el pronóstico de petróleo los pronósticos de Condensado y de GLP.",
+"2014":null,"2015":null,"2016":null,"2017":null,"2018":null}]

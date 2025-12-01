@@ -1,0 +1,189 @@
+[
+  {
+    "HOJA":"C#1",
+    "LOTE":"",
+    "FECHA_EFECTIVA_TXT":"cuadro n° 1: resumen de reservas al 31 de diciembre del 2013 nan nan nan",
+    "CATEGORIA":null,
+    "PETROLEO":null,
+    "GAS":null,
+    "PETROLEO_2":null,
+    "PETROLEO_3":null,
+    "ESCENARIO":"RESERVAS"
+  },
+  {
+    "HOJA":"C#1",
+    "LOTE":"",
+    "FECHA_EFECTIVA_TXT":"cuadro n° 1: resumen de reservas al 31 de diciembre del 2013 nan nan nan",
+    "CATEGORIA":null,
+    "PETROLEO":null,
+    "GAS":null,
+    "PETROLEO_2":null,
+    "PETROLEO_3":null,
+    "ESCENARIO":"RESERVAS"
+  },
+  {
+    "HOJA":"C#1",
+    "LOTE":"",
+    "FECHA_EFECTIVA_TXT":"cuadro n° 1: resumen de reservas al 31 de diciembre del 2013 nan nan nan",
+    "CATEGORIA":"Probadas Desarrolladas En Producción",
+    "PETROLEO":122648.8434552737,
+    "GAS":1863631.1168477538,
+    "PETROLEO_2":null,
+    "PETROLEO_3":122096.156688,
+    "ESCENARIO":"RESERVAS"
+  },
+  {
+    "HOJA":"C#1",
+    "LOTE":"",
+    "FECHA_EFECTIVA_TXT":"cuadro n° 1: resumen de reservas al 31 de diciembre del 2013 nan nan nan",
+    "CATEGORIA":"Probadas Desarrolladas En No Producción",
+    "PETROLEO":30507.7307653502,
+    "GAS":377877.236431193,
+    "PETROLEO_2":null,
+    "PETROLEO_3":30370.2552,
+    "ESCENARIO":"RESERVAS"
+  },
+  {
+    "HOJA":"C#1",
+    "LOTE":"",
+    "FECHA_EFECTIVA_TXT":"cuadro n° 1: resumen de reservas al 31 de diciembre del 2013 nan nan nan",
+    "CATEGORIA":"Probadas Desarrolladas",
+    "PETROLEO":153156.5742206238,
+    "GAS":2241508.3532789466,
+    "PETROLEO_2":null,
+    "PETROLEO_3":152466.411888,
+    "ESCENARIO":"RESERVAS"
+  },
+  {
+    "HOJA":"C#1",
+    "LOTE":"",
+    "FECHA_EFECTIVA_TXT":"cuadro n° 1: resumen de reservas al 31 de diciembre del 2013 nan nan nan",
+    "CATEGORIA":"Probadas No Desarrolladas",
+    "PETROLEO":52397.1127793761,
+    "GAS":758365.2400650537,
+    "PETROLEO_2":null,
+    "PETROLEO_3":52160.998112,
+    "ESCENARIO":"RESERVAS"
+  },
+  {
+    "HOJA":"C#1",
+    "LOTE":"",
+    "FECHA_EFECTIVA_TXT":"cuadro n° 1: resumen de reservas al 31 de diciembre del 2013 nan nan nan",
+    "CATEGORIA":null,
+    "PETROLEO":null,
+    "GAS":null,
+    "PETROLEO_2":null,
+    "PETROLEO_3":null,
+    "ESCENARIO":"RESERVAS"
+  },
+  {
+    "HOJA":"C#1",
+    "LOTE":"",
+    "FECHA_EFECTIVA_TXT":"cuadro n° 1: resumen de reservas al 31 de diciembre del 2013 nan nan nan",
+    "CATEGORIA":"Probadas (1P)",
+    "PETROLEO":205553.687,
+    "GAS":2999873.5933440002,
+    "PETROLEO_2":null,
+    "PETROLEO_3":204627.41,
+    "ESCENARIO":"RESERVAS"
+  },
+  {
+    "HOJA":"C#1",
+    "LOTE":"",
+    "FECHA_EFECTIVA_TXT":"cuadro n° 1: resumen de reservas al 31 de diciembre del 2013 nan nan nan",
+    "CATEGORIA":null,
+    "PETROLEO":null,
+    "GAS":null,
+    "PETROLEO_2":null,
+    "PETROLEO_3":null,
+    "ESCENARIO":"RESERVAS"
+  },
+  {
+    "HOJA":"C#1",
+    "LOTE":"",
+    "FECHA_EFECTIVA_TXT":"cuadro n° 1: resumen de reservas al 31 de diciembre del 2013 nan nan nan",
+    "CATEGORIA":"Probables",
+    "PETROLEO":37122.286,
+    "GAS":499830.1859839996,
+    "PETROLEO_2":null,
+    "PETROLEO_3":35529.995,
+    "ESCENARIO":"RESERVAS"
+  },
+  {
+    "HOJA":"C#1",
+    "LOTE":"",
+    "FECHA_EFECTIVA_TXT":"cuadro n° 1: resumen de reservas al 31 de diciembre del 2013 nan nan nan",
+    "CATEGORIA":null,
+    "PETROLEO":null,
+    "GAS":null,
+    "PETROLEO_2":null,
+    "PETROLEO_3":null,
+    "ESCENARIO":"RESERVAS"
+  },
+  {
+    "HOJA":"C#1",
+    "LOTE":"",
+    "FECHA_EFECTIVA_TXT":"cuadro n° 1: resumen de reservas al 31 de diciembre del 2013 nan nan nan",
+    "CATEGORIA":"Probadas + Probables (2P)",
+    "PETROLEO":242675.973,
+    "GAS":3499703.7793279998,
+    "PETROLEO_2":null,
+    "PETROLEO_3":240157.405,
+    "ESCENARIO":"RESERVAS"
+  },
+  {
+    "HOJA":"C#1",
+    "LOTE":"",
+    "FECHA_EFECTIVA_TXT":"cuadro n° 1: resumen de reservas al 31 de diciembre del 2013 nan nan nan",
+    "CATEGORIA":null,
+    "PETROLEO":null,
+    "GAS":null,
+    "PETROLEO_2":null,
+    "PETROLEO_3":null,
+    "ESCENARIO":"RESERVAS"
+  },
+  {
+    "HOJA":"C#1",
+    "LOTE":"",
+    "FECHA_EFECTIVA_TXT":"cuadro n° 1: resumen de reservas al 31 de diciembre del 2013 nan nan nan",
+    "CATEGORIA":"Posibles",
+    "PETROLEO":5561.579,
+    "GAS":79422.5623040008,
+    "PETROLEO_2":null,
+    "PETROLEO_3":5181.816,
+    "ESCENARIO":"RESERVAS"
+  },
+  {
+    "HOJA":"C#1",
+    "LOTE":"",
+    "FECHA_EFECTIVA_TXT":"cuadro n° 1: resumen de reservas al 31 de diciembre del 2013 nan nan nan",
+    "CATEGORIA":null,
+    "PETROLEO":null,
+    "GAS":null,
+    "PETROLEO_2":null,
+    "PETROLEO_3":null,
+    "ESCENARIO":"RESERVAS"
+  },
+  {
+    "HOJA":"C#1",
+    "LOTE":"",
+    "FECHA_EFECTIVA_TXT":"cuadro n° 1: resumen de reservas al 31 de diciembre del 2013 nan nan nan",
+    "CATEGORIA":"Probadas + Probables + Posibles (3P)",
+    "PETROLEO":248237.552,
+    "GAS":3579126.3416320006,
+    "PETROLEO_2":null,
+    "PETROLEO_3":245339.221,
+    "ESCENARIO":"RESERVAS"
+  },
+  {
+    "HOJA":"C#1",
+    "LOTE":"",
+    "FECHA_EFECTIVA_TXT":"cuadro n° 1: resumen de reservas al 31 de diciembre del 2013 nan nan nan",
+    "CATEGORIA":null,
+    "PETROLEO":null,
+    "GAS":null,
+    "PETROLEO_2":null,
+    "PETROLEO_3":null,
+    "ESCENARIO":"RESERVAS"
+  }
+]

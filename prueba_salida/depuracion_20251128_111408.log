@@ -1,0 +1,123 @@
+[INFO] Archivo: W:\POZOS\DANIEL\03_NOV_CAMISEA_56_57_58_88\Lote_56\2013. TABLAS DE RESERVAS 2013 - Lote 56.xlsx
+[INFO] Hojas detectadas: ['C#1', 'C#2', 'C#3', 'C#4 Lote56 GAS', 'C#4 Lote56 GLP', 'C#4 Lote56 COND', 'C#4 PAG GAS', 'C#4 PAG GLP', 'C#4 PAG COND', 'C#4 MIP GAS', 'C#4 MIP GLP', 'C#4 MIP COND', 'C#4 PAW GAS', 'C#4 PAW GLP', 'C#4 PAW COND', 'C#5', 'C#6', 'C#7', 'C#8', 'C#9', 'C#10', 'C#11', 'C#12', 'C#13', 'C#14, 15, 16', 'C#17', 'C#18', 'C#19', 'C#20', 'C#21']
+
+[HOJA] >>> C#1
+[INFO] Tipo detectado: RESERVAS
+[OK] Guardado: C:\Users\jreyes\Documents\Proyecto_Producción\prueba_salida\2013. TABLAS DE RESERVAS 2013 - Lote 56__C_1__RESERVAS.json
+[INFO] Filas=17, NoVacias=17
+
+[HOJA] >>> C#2
+[INFO] Tipo detectado: None
+[SKIP] Sin match o extractor vacío. Snippet: nan nan nan nan nan nan cuadro n° 2: resumen de recursos contingentes al 31 de diciembre del 2013 nan nan nan nan (*) referente al ítem n° 8 del oficio. nan nan nan nan nan nan nan nan nan categoría petróleo gas líquidos de gas natural nan nan (mstb) (mmcf) (mstb) nan estimación baja (1c) nan nan na
+
+[HOJA] >>> C#3
+[INFO] Tipo detectado: None
+[SKIP] Sin match o extractor vacío. Snippet: nan nan nan nan nan nan nan cuadro n° 3: resumen de recursos prospectivos al 31 de diciembre del 2013 nan nan nan nan nan (*) referente al ítem n° 8 del oficio. nan nan nan nan nan nan nan nan nan nan nan nan categoría petróleo gas líquidos de gas natural nan nan nan (mstb) (mmcf) (mstb) nan nan est
+
+[HOJA] >>> C#4 Lote56 GAS
+[INFO] Tipo detectado: None
+[SKIP] Sin match o extractor vacío. Snippet: nan nan nan nan nan nan nan nan nan nan conciliación de reservas y recursos de hidrocarburos nan nan nan nan nan nan nan nan cuadro n° 4: conciliación de reservas por yacimiento y total del lote nan nan nan nan nan nan nan nan (*) referente al ítem n° 8 del oficio. nan nan nan nan nan nan nan nan lo
+
+[HOJA] >>> C#4 Lote56 GLP
+[INFO] Tipo detectado: None
+[SKIP] Sin match o extractor vacío. Snippet: nan nan nan nan nan nan nan nan nan nan conciliación de reservas y recursos de hidrocarburos nan nan nan nan nan nan nan nan cuadro n° 4: conciliación de reservas por yacimiento y total del lote nan nan nan nan nan nan nan nan (*) referente al ítem n° 8 del oficio. nan nan nan nan nan nan nan nan lo
+
+[HOJA] >>> C#4 Lote56 COND
+[INFO] Tipo detectado: None
+[SKIP] Sin match o extractor vacío. Snippet: nan nan nan nan nan nan nan nan nan nan conciliación de reservas y recursos de hidrocarburos nan nan nan nan nan nan nan nan cuadro n° 4: conciliación de reservas por yacimiento y total del lote nan nan nan nan nan nan nan nan (*) referente al ítem n° 8 del oficio. nan nan nan nan nan nan nan nan lo
+
+[HOJA] >>> C#4 PAG GAS
+[INFO] Tipo detectado: None
+[SKIP] Sin match o extractor vacío. Snippet: nan nan nan nan nan nan nan nan nan nan conciliación de reservas y recursos de hidrocarburos nan nan nan nan nan nan nan nan cuadro n° 4: conciliación de reservas por yacimiento y total del lote nan nan nan nan nan nan nan nan (*) referente al ítem n° 8 del oficio. nan nan nan nan nan nan nan nan pa
+
+[HOJA] >>> C#4 PAG GLP
+[INFO] Tipo detectado: None
+[SKIP] Sin match o extractor vacío. Snippet: nan nan nan nan nan nan nan nan nan nan conciliación de reservas y recursos de hidrocarburos nan nan nan nan nan nan nan nan cuadro n° 4: conciliación de reservas por yacimiento y total del lote nan nan nan nan nan nan nan nan (*) referente al ítem n° 8 del oficio. nan nan nan nan nan nan nan nan pa
+
+[HOJA] >>> C#4 PAG COND
+[INFO] Tipo detectado: None
+[SKIP] Sin match o extractor vacío. Snippet: nan nan nan nan nan nan nan nan nan nan conciliación de reservas y recursos de hidrocarburos nan nan nan nan nan nan nan nan cuadro n° 4: conciliación de reservas por yacimiento y total del lote nan nan nan nan nan nan nan nan (*) referente al ítem n° 8 del oficio. nan nan nan nan nan nan nan nan pa
+
+[HOJA] >>> C#4 MIP GAS
+[INFO] Tipo detectado: None
+[SKIP] Sin match o extractor vacío. Snippet: nan nan nan nan nan nan nan nan nan nan conciliación de reservas y recursos de hidrocarburos nan nan nan nan nan nan nan nan cuadro n° 4: conciliación de reservas por yacimiento y total del lote nan nan nan nan nan nan nan nan (*) referente al ítem n° 8 del oficio. nan nan nan nan nan nan nan nan mi
+
+[HOJA] >>> C#4 MIP GLP
+[INFO] Tipo detectado: None
+[SKIP] Sin match o extractor vacío. Snippet: nan nan nan nan nan nan nan nan nan nan conciliación de reservas y recursos de hidrocarburos nan nan nan nan nan nan nan nan cuadro n° 4: conciliación de reservas por yacimiento y total del lote nan nan nan nan nan nan nan nan (*) referente al ítem n° 8 del oficio. nan nan nan nan nan nan nan nan mi
+
+[HOJA] >>> C#4 MIP COND
+[INFO] Tipo detectado: None
+[SKIP] Sin match o extractor vacío. Snippet: nan nan nan nan nan nan nan nan nan nan conciliación de reservas y recursos de hidrocarburos nan nan nan nan nan nan nan nan cuadro n° 4: conciliación de reservas por yacimiento y total del lote nan nan nan nan nan nan nan nan (*) referente al ítem n° 8 del oficio. nan nan nan nan nan nan nan nan mi
+
+[HOJA] >>> C#4 PAW GAS
+[INFO] Tipo detectado: None
+[SKIP] Sin match o extractor vacío. Snippet: nan nan nan nan nan nan nan nan nan nan conciliación de reservas y recursos de hidrocarburos nan nan nan nan nan nan nan nan cuadro n° 4: conciliación de reservas por yacimiento y total del lote nan nan nan nan nan nan nan nan (*) referente al ítem n° 8 del oficio. nan nan nan nan nan nan nan nan pa
+
+[HOJA] >>> C#4 PAW GLP
+[INFO] Tipo detectado: None
+[SKIP] Sin match o extractor vacío. Snippet: nan nan nan nan nan nan nan nan nan nan conciliación de reservas y recursos de hidrocarburos nan nan nan nan nan nan nan nan cuadro n° 4: conciliación de reservas por yacimiento y total del lote nan nan nan nan nan nan nan nan (*) referente al ítem n° 8 del oficio. nan nan nan nan nan nan nan nan pa
+
+[HOJA] >>> C#4 PAW COND
+[INFO] Tipo detectado: None
+[SKIP] Sin match o extractor vacío. Snippet: nan nan nan nan nan nan nan nan nan nan conciliación de reservas y recursos de hidrocarburos nan nan nan nan nan nan nan nan cuadro n° 4: conciliación de reservas por yacimiento y total del lote nan nan nan nan nan nan nan nan (*) referente al ítem n° 8 del oficio. nan nan nan nan nan nan nan nan pa
+
+[HOJA] >>> C#5
+[INFO] Tipo detectado: None
+[SKIP] Sin match o extractor vacío. Snippet: nan nan nan nan nan nan nan cuadro n° 5: conciliación de recursos contingentes por estructura y total del lote nan nan nan nan nan (*) referente al ítem n° 8 del oficio. nan nan nan nan nan nan nan nan nan nan nan efectivo - diciembre 31, 2013 nan estimación baja (1c) mejor estimación (2c) estimació
+
+[HOJA] >>> C#6
+[INFO] Tipo detectado: None
+[SKIP] Sin match o extractor vacío. Snippet: nan nan nan nan nan nan nan cuadro n° 6: conciliación de recursos prospectivos por yacimiento y total del lote nan nan nan nan nan (*) referente al ítem n° 8 del oficio. nan nan nan nan nan nan nan nan nan nan nan efectivo - diciembre 31, 2013 nan estimación baja (1c) mejor estimación (2c) estimació
+
+[HOJA] >>> C#7
+[INFO] Tipo detectado: None
+[SKIP] Sin match o extractor vacío. Snippet: nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan propiedades petrofísicas y de fluidos por yacimientos y reservorios de hidrocarburos nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan cuadro n° 7: propiedades petrofísicas y de fluidos por yacimientos y re
+
+[HOJA] >>> C#8
+[INFO] Tipo detectado: None
+[SKIP] Sin match o extractor vacío. Snippet: nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan cuadro n° 8: propiedades petrofísicas y de fluidos por estructuras y formaciones objetivos de hidrocarburos utilizadas para la estimación de recursos prospectivos nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan n
+
+[HOJA] >>> C#9
+[INFO] Tipo detectado: None
+[SKIP] Sin match o extractor vacío. Snippet: nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan producción de hidrocarburos durante el 2013 nan nan nan nan nan nan nan nan nan nan nan nan nan cuadro n° 9: producción mensual de hidrocarburos por pozo durante el 2013 nan nan nan nan nan nan nan nan nan nan nan nan nan (*) referente al í
+
+[HOJA] >>> C#10
+[INFO] Tipo detectado: None
+[SKIP] Sin match o extractor vacío. Snippet: nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan historial de producción de pozos nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan cuadro n° 10: historial de producción de pozos por yacimiento nan nan nan n
+
+[HOJA] >>> C#11
+[INFO] Tipo detectado: None
+[SKIP] Sin match o extractor vacío. Snippet: nan nan nan nan nan nan nan nan nan nan nan nan trabajos de workover (rehabilitación y reacondicionamiento) ejecutados durante el 2013 nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan cuadro n° 11: trabajos de workover o retrabajos ejecutados realizados durante el 
+
+[HOJA] >>> C#12
+[INFO] Tipo detectado: None
+[SKIP] Sin match o extractor vacío. Snippet: nan nan nan nan nan nan nan nan nan nan lista de pozos que requieren trabajos de workover (rehabilitación y reacondicionamiento) al 31 de diciembre del 2013 nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan cuadro n° 12: catálogo de trabajos de workover o retrabajos nan nan nan nan
+
+[HOJA] >>> C#13
+[INFO] Tipo detectado: None
+[SKIP] Sin match o extractor vacío. Snippet: nan nan nan nan nan nan nan nan nan nan nan nan nan nan número total de pozos nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan cuadro n° 13: número total de pozos por yacimiento al 31 de diciembre del 2013 nan nan nan nan nan nan nan nan nan nan nan
+
+[HOJA] >>> C#14, 15, 16
+[INFO] Tipo detectado: None
+[SKIP] Sin match o extractor vacío. Snippet: nan nan nan nan nan nan nan nan nan nan nan nan inventario de ubicaciones propuestas para reservas probadas no desarrolladas, reservas probables y reservas posibles nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan cuadro n° 14: ubicaciones de pozos para reservas pr
+
+[HOJA] >>> C#17
+[INFO] Tipo detectado: None
+[SKIP] Sin match o extractor vacío. Snippet: nan nan nan nan nan nan nan nan nan nan nan nan nan nan coordenadas de pozos perforados durante el 2013 nan nan nan nan nan nan nan nan nan nan nan nan cuadro n° 17: coordenadas utm (psad 56 y wgs 84) de los nuevos pozos perforados durante el año 2013 nan nan nan nan nan nan nan nan nan nan nan nan 
+
+[HOJA] >>> C#18
+[INFO] Tipo detectado: None
+[SKIP] Sin match o extractor vacío. Snippet: nan nan nan nan nan nan nan nan nan nan pronóstico de producción de hidrocarburos por yacimiento nan nan nan nan nan nan nan nan cuadro n° 18: pronóstico de producción de petróleo por yacimiento nan nan nan nan nan nan nan nan (*) referente al ítem n° 12 del oficio. nan nan nan nan nan nan nan nan n
+
+[HOJA] >>> C#19
+[INFO] Tipo detectado: None
+[SKIP] Sin match o extractor vacío. Snippet: nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan cuadro n° 19: pronóstico de producción de gas natural por yacimiento nan nan nan nan nan nan nan nan (*) referente al ítem n° 12 del oficio. nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan efectivo: dicie
+
+[HOJA] >>> C#20
+[INFO] Tipo detectado: None
+[SKIP] Sin match o extractor vacío. Snippet: nan nan nan nan nan nan nan nan nan nan nan nan nan plan quinquenal de inversiones nan nan nan nan nan nan nan nan nan nan nan cuadro n° 20: inversiones en etapa de exploración (mus$) nan nan nan nan nan nan nan nan nan nan nan (*) referente al ítem n° 27 del oficio. nan nan nan nan nan nan nan nan 
+
+[HOJA] >>> C#21
+[INFO] Tipo detectado: None
+[SKIP] Sin match o extractor vacío. Snippet: nan nan nan nan nan nan nan nan nan nan nan nan nan cuadro n° 21: inversiones en etapa de explotación (mus$) nan nan nan nan nan nan nan nan nan nan nan (*) referente al ítem n° 27 del oficio. nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan plan quinquenal
